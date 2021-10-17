@@ -60,6 +60,10 @@ header div {
 	font-weight: bold;
 }
 
+.main-img {
+	max-width: 100%;
+}
+
 .order-form {
 	padding: 20px;
 }
@@ -80,3 +84,10 @@ header div {
 }
 
 /* header font color #45727e */
+
+
+@media screen and (max-width:936px) {
+	.container {
+		width: 100%;
+	}
+}
